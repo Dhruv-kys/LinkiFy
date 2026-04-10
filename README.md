@@ -65,13 +65,13 @@ You can run the app with these optional variables:
 
 ```bash
 PORT=8001
-MONGODB_URL=mongodb://localhost:27017/short-url
+MONGODB_URL=mongodb://127.0.0.1:27017/short-url
 ```
 
 Example:
 
 ```bash
-PORT=5000 MONGODB_URL=mongodb://localhost:27017/short-url npm run dev
+PORT=5000 MONGODB_URL=mongodb://127.0.0.1:27017/short-url npm run dev
 ```
 
 ## API Endpoints
